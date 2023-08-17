@@ -13,8 +13,9 @@ export default {
       },
       colors: {
         primary: "#9A54B3",
-        seconday: "#67023D",
-        secondaryLight: "rgba(203, 131, 37, 0.17)",
+        seconday: "#DE58A0",
+        tertiary: "#FF9969",
+        quaternary: "#FFC95D",
       },
       keyframes: {
         animatedgradient: {

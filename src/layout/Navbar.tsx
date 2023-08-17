@@ -23,7 +23,13 @@ function Navbar() {
       </ul>
       <ul className="flex flex-row gap-3 justify-end m-auto">
         <li>
-          <i className="fa-regular fa-circle-down"></i> Resume
+          <a
+            className="border-2 rounded-lg border-fuchsia-300 bg-red-600 p-1"
+            href="public/JustinElmourne-CV.pdf"
+            download
+          >
+            <i className="fa-regular fa-circle-down"></i> Resume
+          </a>
         </li>
       </ul>
     </nav>
