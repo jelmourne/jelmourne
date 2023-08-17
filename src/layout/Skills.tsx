@@ -6,7 +6,7 @@ function Skills() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="flex flex-col bg-zinc-950 rounded-2xl w-11/12 h-fit p-5 -m-40">
+        <div className="flex flex-col bg-zinc-800 rounded-2xl w-11/12 h-fit p-5 -mt-40">
           <div className="flex flex-row justify-center m-10">
             <h1 className="text-white text-3xl">
               <i className="fa-solid fa-bolt"></i> Skills
@@ -23,7 +23,7 @@ function Skills() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <div className="flex justify-center m-5">
+          <div className="flex justify-center m-5 flex-wrap">
             <SmallCard title="CSS" logo="css" value="85"></SmallCard>
             <SmallCard title="Database" logo="sql" value="80"></SmallCard>
             <SmallCard title="HTML" logo="html" value="90"></SmallCard>

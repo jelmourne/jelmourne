@@ -4,5 +4,7 @@
 
 html {
   @apply overflow-x-hidden;
+  @apply bg-black;
   @apply bg-hideout;
+  @apply bg-[length:60px_60px];
 }

@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./layout/Navbar";
 import About from "./layout/About";
 import Skills from "./layout/Skills";
+import Project from "./layout/Project";
 
 const rootElement = document.getElementById("root");
 
@@ -12,7 +13,7 @@ root.render(
   <React.StrictMode>
     <Navbar></Navbar>
     <About></About>
-
     <Skills></Skills>
+    <Project></Project>
   </React.StrictMode>
 );

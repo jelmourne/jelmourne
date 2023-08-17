@@ -2,7 +2,6 @@ import { useState } from "react";
 import "../index.css";
 
 function SmallCard(props: { title: string; logo: string; value: string }) {
-  console.log(props.value);
   return (
     <div className="flex flex-col justify-center items-center h-48 hover:scale-105 transition-transform aspect-square m-5">
       <div
