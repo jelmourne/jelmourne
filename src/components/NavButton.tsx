@@ -1,4 +1,3 @@
-import React, { JSXElementConstructor, useState } from "react";
 import "../index.css";
 
 function NavButton(props: { link?: string; name: React.ReactNode }) {

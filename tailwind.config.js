@@ -12,9 +12,8 @@ export default {
         hideout: "url('src/assets/hideout.svg')",
       },
       colors: {
-        primary: "rgb(37, 203, 130)",
-        primaryLight: "rgba(37, 203, 130, 0.17)",
-        seconday: "rgb(203, 131, 37)",
+        primary: "#9A54B3",
+        seconday: "#67023D",
         secondaryLight: "rgba(203, 131, 37, 0.17)",
       },
       keyframes: {
