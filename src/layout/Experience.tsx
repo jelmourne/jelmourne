@@ -1,3 +1,4 @@
+import EducationCard from "../components/EducationCard";
 import ExperienceCard from "../components/ExperienceCard";
 import "../index.css";
 
@@ -26,9 +27,39 @@ function Experience() {
         </div>
       </div>
       <div className="flex flex-col">
-        <h1 className="text-white text-3xl text-center">
-          <i className="fa-solid fa-graduation-cap"></i> Education
-        </h1>
+        <div className="flex flex-row items-center">
+          <h1 className="text-white text-3xl text-center">
+            <i className="fa-solid fa-graduation-cap"></i> Education
+          </h1>
+        </div>
+
+        <div className="flex-row justify-center">
+          <EducationCard
+            school="Vanier College"
+            degree="AEC"
+            major="Software Development"
+          ></EducationCard>
+          <EducationCard
+            school="Harvard University"
+            degree="Certificate"
+            major="Web Development"
+          ></EducationCard>
+          <EducationCard
+            school="Harvard University"
+            degree="Certificate"
+            major="Computer Science"
+          ></EducationCard>
+          <EducationCard
+            school="University of Ottawa"
+            degree="BSc"
+            major="Psychology"
+          ></EducationCard>
+          <EducationCard
+            school="Vanier College"
+            degree="DEC"
+            major="Social Science"
+          ></EducationCard>
+        </div>
       </div>
     </div>
   );
