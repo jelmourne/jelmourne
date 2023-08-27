@@ -6,7 +6,7 @@ function Skills() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="flex flex-col bg-zinc-800 rounded-2xl w-11/12 h-fit p-5 -mt-40">
+        <div className="flex flex-col bg-zinc-900 rounded-2xl w-11/12 h-fit p-5 -mt-40">
           <div className="flex flex-row justify-center m-10">
             <h1 className="text-white text-3xl">
               <i className="fa-solid fa-bolt"></i> Skills

@@ -10,6 +10,7 @@ export default {
     extend: {
       backgroundImage: {
         hideout: "url('src/assets/hideout.svg')",
+        space: "url('src/assets/space.jpg')",
       },
       colors: {
         primary: "#9A54B3",
