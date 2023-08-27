@@ -24,7 +24,7 @@ function Navbar() {
       <ul className="flex flex-row gap-3 justify-end m-auto">
         <li>
           <a
-            className="border-2 rounded-lg border-fuchsia-300 bg-red-600 p-1"
+            className="border-2 border-[rgb(100,149,237)] rounded-lg hover:shadow-[0px_7px_29px_0px_rgb(100,149,237)] shadow-[inset_0px_7px_29px_0px_rgb(100,149,237)] bg-slate-300 p-1 transition-all"
             href="public/JustinElmourne-CV.pdf"
             download
           >

@@ -3,6 +3,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      tablet: { max: "1023px" },
+      phone: { max: "639px" },
+    },
     fontFamily: {
       sans: ['"PT Sans"', "sans-serif"],
       serif: ["Merriweather", "serif"],
