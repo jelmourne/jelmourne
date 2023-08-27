@@ -14,12 +14,22 @@ function Contact() {
         </div>
         <form className="flex flex-col gap-4 order-2 w-screen">
           <div className="flex flex-row gap-2 justify-center">
-            <input type="text" className="w-1/2"></input>
-            <input type="text" className="w-1/2"></input>
+            <input
+              type="text"
+              className="w-1/2 "
+              placeholder="First Name"
+            ></input>
+            <input
+              type="text"
+              className="w-1/2"
+              placeholder="Last Name"
+            ></input>
           </div>
-          <input type="email"></input>
+
+          <input type="email" placeholder="Email"></input>
+
           <textarea></textarea>
-          <input type="submit" className="text-start" value="send"></input>
+          <input type="submit" className="text-start" value="Send"></input>
         </form>
       </div>
     </div>

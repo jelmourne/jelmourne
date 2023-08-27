@@ -7,6 +7,7 @@ import Skills from "./layout/Skills";
 import Project from "./layout/Project";
 import Experience from "./layout/Experience";
 import Contact from "./layout/Contact";
+import Footer from "./layout/Footer";
 
 const rootElement = document.getElementById("root");
 
@@ -19,5 +20,6 @@ root.render(
     <Project></Project>
     <Experience></Experience>
     <Contact></Contact>
+    <Footer></Footer>
   </React.StrictMode>
 );
