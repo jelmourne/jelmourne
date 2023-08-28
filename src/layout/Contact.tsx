@@ -5,7 +5,7 @@ function Contact() {
     <div className="bg-zinc-900 h-screen mt-20 rounded-t-3xl ">
       <div className="flex flex-row justify-center p-10">
         <h1 className="text-white text-3xl">
-          <i className="fa-solid fa-envelope"></i> Contact
+          <i className="fa-solid fa-phone"></i> Contact
         </h1>
       </div>
       <div className="flex flex-row justify-center gap-10 m-10">

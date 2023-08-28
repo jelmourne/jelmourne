@@ -14,12 +14,24 @@ function Project() {
         </h1>
       </div>
       <div className="flex flex-row justify-center gap-28 flex-wrap">
-        <ProjectCard title="Workly" tech={workly}></ProjectCard>
-        <ProjectCard title="Portfolio" tech={portfolio}></ProjectCard>
-        <ProjectCard title="Smartshop" tech={smartshop}></ProjectCard>
-        <ProjectCard title="Smartshop" tech={smartshop}></ProjectCard>
-        <ProjectCard title="Smartshop" tech={smartshop}></ProjectCard>
-        <ProjectCard title="Smartshop" tech={smartshop}></ProjectCard>
+        <ProjectCard
+          title="Workly"
+          tech={workly}
+          link="https://github.com/jelmourne/workly"
+        ></ProjectCard>
+        <ProjectCard
+          title="Portfolio"
+          tech={portfolio}
+          link="https://github.com/jelmourne/portfolio"
+        ></ProjectCard>
+        <ProjectCard
+          title="Smartshop"
+          tech={smartshop}
+          link="https://github.com/jelmourne/smartshop"
+        ></ProjectCard>
+        <ProjectCard title="Smartshop" tech={smartshop} link=""></ProjectCard>
+        <ProjectCard title="Smartshop" tech={smartshop} link=""></ProjectCard>
+        <ProjectCard title="Smartshop" tech={smartshop} link=""></ProjectCard>
       </div>
       <div className="flex justify-end mx-32 m-10">
         <a
