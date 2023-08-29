@@ -12,7 +12,10 @@ function About() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="flex flex-row  h-screen justify-end bg-space bg-no-repeat bg-cover rounded-b-3xl">
+    <div
+      className="flex flex-row  h-screen justify-end bg-space bg-no-repeat bg-cover rounded-b-3xl"
+      id="about"
+    >
       <div className=" text-white m-10 flex flex-col justify-center text-end">
         <h1 className="font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-primary to-blue-400 bg-[length:300%_300%] animate-gradient">
           Justin Elmourne

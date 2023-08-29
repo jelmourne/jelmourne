@@ -7,7 +7,7 @@ const smartshop = ["CSS", "Django", "HTML", "JavaScript", "SQL"];
 
 function Project() {
   return (
-    <div className="flex flex-col h-max">
+    <div className="flex flex-col h-max" id="project">
       <div className="flex flex-row justify-center m-10">
         <h1 className="text-white text-3xl">
           <i className="fa-solid fa-file"></i> Projects

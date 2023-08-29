@@ -7,4 +7,5 @@ html {
   @apply bg-black;
   @apply bg-hideout;
   @apply bg-[length:60px_60px];
+  @apply scroll-smooth;
 }

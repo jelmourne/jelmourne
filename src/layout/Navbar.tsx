@@ -15,11 +15,11 @@ function Navbar() {
         ></NavButton>
       </ul>
       <ul className="flex flex-row gap-4 justify-center m-auto">
-        <NavButton name="About Me"></NavButton>
-        <NavButton name="Skills"></NavButton>
-        <NavButton name="Project"></NavButton>
-        <NavButton name="Experience"></NavButton>
-        <NavButton name="Contact"></NavButton>
+        <NavButton name="About Me" link="#about"></NavButton>
+        <NavButton name="Skills" link="#skill"></NavButton>
+        <NavButton name="Project" link="#project"></NavButton>
+        <NavButton name="Experience" link="#experience"></NavButton>
+        <NavButton name="Contact" link="#contact"></NavButton>
       </ul>
       <ul className="flex flex-row gap-3 justify-end m-auto">
         <li>
