@@ -2,7 +2,7 @@ import "../index.css";
 
 function ExperienceCard(props: {
   title: string;
-  position: string;
+  company: string;
   point: string[];
 }) {
   return (
