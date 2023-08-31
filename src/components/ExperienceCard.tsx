@@ -14,9 +14,9 @@ function ExperienceCard(props: {
         @ {props.title}
       </h1>
       <ul className="list-disc">
-        {props.points.map((point) => {
-          return <li>point</li>;
-        })}
+        {props.points.map((point) => (
+          <li>{point}</li>
+        ))}
       </ul>
     </div>
   );

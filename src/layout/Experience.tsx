@@ -10,8 +10,14 @@ const developer = [
 
 const dataEntry = [
   "Resolved potential damages in received goods through adept vendor communication.",
-  " Skillfully managed invoice payments for shipments, resulting in a 95% accuracy rate.",
+  "Skillfully managed invoice payments for shipments, resulting in a 95% accuracy rate.",
   "Utilized Excel for data analysis, applying V-lookup and Pivot Tables to enhance data readability.",
+];
+
+const warehouse = [
+  "Displayed proactive leadership, streamlining task completion and team organization.",
+  "Managed incoming and outgoing inventory with high efficiency, reducing discrepancies by 25%. ",
+  "Collaborated effectively with team members, consistently meeting daily targets and ensuring timely task completion.",
 ];
 
 function Experience() {
@@ -42,6 +48,7 @@ function Experience() {
               <ExperienceCard
                 title="Linen Chest"
                 position="Warehouse Associate"
+                points={warehouse}
               ></ExperienceCard>
             </li>
           </ul>

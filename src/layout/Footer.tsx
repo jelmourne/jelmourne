@@ -3,7 +3,7 @@ import "../index.css";
 
 function Footer() {
   return (
-    <div className="bg-[rgb(100,149,237)] text-black z-[999]">
+    <div className="bg-[rgb(100,149,237)] text-black z-[999] h-1/5">
       <ul className="flex flex-row gap-10 justify-center p-10">
         <SocialButton
           link="https://www.instagram.com/jus_elmourne3/?hl=en"
