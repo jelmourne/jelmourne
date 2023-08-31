@@ -1,8 +1,9 @@
 import "../index.css";
+import Footer from "./Footer";
 
 function Contact() {
   return (
-    <div className="bg-zinc-950 h-screen mt-20 rounded-t-3xl " id="contact">
+    <div className="bg-zinc-950 mt-20 rounded-t-3xl " id="contact">
       <div className="flex flex-row justify-center p-10">
         <h1 className="text-white text-3xl">
           <i className="fa-solid fa-phone"></i> Contact
@@ -45,6 +46,7 @@ function Contact() {
           ></input>
         </form>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

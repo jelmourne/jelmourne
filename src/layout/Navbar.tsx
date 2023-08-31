@@ -3,7 +3,7 @@ import NavButton from "../components/NavButton";
 
 function Navbar() {
   return (
-    <nav className="bg-black flex text-white gap-3 w-full justify-center lg:gap-10 text-2xl  backdrop-blur-2xl">
+    <nav className="bg-black flex text-white gap-3 w-full justify-center lg:gap-10 text-2xl z-[999] backdrop-blur-2xl">
       <ul className="flex flex-row gap-3 justify-start m-auto">
         <NavButton
           name={<i className="fab fa-github"></i>}
@@ -14,7 +14,7 @@ function Navbar() {
           link="https://www.linkedin.com/in/jelmourne/"
         ></NavButton>
       </ul>
-      <ul className="flex flex-row gap-4 justify-center m-auto">
+      <ul className="flex flex-row gap-4 justify-center m-auto ">
         <NavButton name="About Me" link="#about"></NavButton>
         <NavButton name="Skills" link="#skill"></NavButton>
         <NavButton name="Project" link="#project"></NavButton>

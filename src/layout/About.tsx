@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
+import Navbar from "./Navbar";
 import "../index.css";
 
 const textArr = [
@@ -13,7 +14,7 @@ function About() {
 
   return (
     <div
-      className="flex flex-row  h-screen justify-end bg-space bg-no-repeat bg-cover rounded-b-3xl"
+      className="flex flex-row h-screen justify-end bg-space bg-no-repeat bg-cover rounded-b-3xl"
       id="about"
     >
       <div className=" text-white m-10 flex flex-col justify-center text-end">

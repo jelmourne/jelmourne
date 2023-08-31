@@ -2,6 +2,18 @@ import EducationCard from "../components/EducationCard";
 import ExperienceCard from "../components/ExperienceCard";
 import "../index.css";
 
+const developer = [
+  "Engineered customized Python backends, tailoring website functionality to individual client needs.",
+  "Crafted responsive websites for exceptional user experiences across devices.",
+  "Developed scale able relational databases, optimizing data management efficiency.",
+];
+
+const dataEntry = [
+  "Resolved potential damages in received goods through adept vendor communication.",
+  " Skillfully managed invoice payments for shipments, resulting in a 95% accuracy rate.",
+  "Utilized Excel for data analysis, applying V-lookup and Pivot Tables to enhance data readability.",
+];
+
 function Experience() {
   return (
     <div className="flex flex-row h-screen m-10" id="experience">
@@ -12,16 +24,25 @@ function Experience() {
         <div>
           <ul className="steps steps-vertical">
             <li data-content="2023" className="step step-neutral">
-              <ExperienceCard></ExperienceCard>
+              <ExperienceCard
+                title="Freelace"
+                position="Full Stack Developer"
+                points={developer}
+              ></ExperienceCard>
             </li>
-            <li data-content="2022" className="step step-neutral">
-              <ExperienceCard></ExperienceCard>
-            </li>
+
             <li data-content="2021" className="step step-neutral">
-              <ExperienceCard></ExperienceCard>
+              <ExperienceCard
+                title="Linen Chest"
+                position="Data Entry"
+                points={dataEntry}
+              ></ExperienceCard>
             </li>
             <li data-content="2020" className="step step-neutral">
-              <ExperienceCard></ExperienceCard>
+              <ExperienceCard
+                title="Linen Chest"
+                position="Warehouse Associate"
+              ></ExperienceCard>
             </li>
           </ul>
         </div>
