@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { MutableRefObject, useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import Navbar from "./Navbar";
 import "../index.css";
@@ -15,7 +15,7 @@ function About() {
   return (
     <div
       className="flex flex-row h-screen justify-end bg-space bg-no-repeat bg-cover rounded-b-3xl"
-      id="about"
+      id="#about"
     >
       <div className=" text-white m-10 flex flex-col justify-center text-end">
         <h1 className="font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-primary to-blue-400 bg-[length:300%_300%] animate-gradient">

@@ -22,7 +22,7 @@ const warehouse = [
 
 function Experience() {
   return (
-    <div className="flex flex-row h-screen m-10" id="experience">
+    <div className="flex flex-row h-screen m-10" id="#experience">
       <div className="flex flex-col justify-start">
         <h1 className="text-white text-3xl text-center">
           <i className="fa-solid fa-briefcase"></i> Experience

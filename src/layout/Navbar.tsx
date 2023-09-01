@@ -1,25 +1,59 @@
 import "../index.css";
+import { useRef } from "react";
 import NavButton from "../components/NavButton";
+import Contact from "./Contact";
 
 function Navbar() {
+  const handleScroll = (elem: any) => {
+    const id = document.getElementById(elem);
+    window.scrollTo({
+      top: id?.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <nav className="bg-black flex text-white gap-3 w-full justify-center lg:gap-10 text-2xl z-[999] backdrop-blur-2xl">
       <ul className="flex flex-row gap-3 justify-start m-auto">
         <NavButton
           name={<i className="fab fa-github"></i>}
-          link="https://github.com/jelmourne"
+          onClick={() => window.open("https://github.com/jelmourne")}
         ></NavButton>
         <NavButton
           name={<i className="fa-brands fa-linkedin"></i>}
-          link="https://www.linkedin.com/in/jelmourne/"
+          onClick={() => window.open("https://www.linkedin.com/in/jelmourne/")}
         ></NavButton>
       </ul>
       <ul className="flex flex-row gap-4 justify-center m-auto ">
-        <NavButton name="About Me" link="#about"></NavButton>
-        <NavButton name="Skills" link="#skill"></NavButton>
-        <NavButton name="Project" link="#project"></NavButton>
-        <NavButton name="Experience" link="#experience"></NavButton>
-        <NavButton name="Contact" link="#contact"></NavButton>
+        <NavButton
+          name="About Me"
+          onClick={() => {
+            handleScroll("#about");
+          }}
+        ></NavButton>
+        <NavButton
+          name="Skills"
+          onClick={() => {
+            handleScroll("#skills");
+          }}
+        ></NavButton>
+        <NavButton
+          name="Project"
+          onClick={() => {
+            handleScroll("#project");
+          }}
+        ></NavButton>
+        <NavButton
+          name="Experience"
+          onClick={() => {
+            handleScroll("#experience");
+          }}
+        ></NavButton>
+        <NavButton
+          name="Contact"
+          onClick={() => {
+            handleScroll("#contact");
+          }}
+        ></NavButton>
       </ul>
       <ul className="flex flex-row gap-3 justify-end m-auto">
         <li>
