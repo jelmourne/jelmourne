@@ -59,7 +59,7 @@ function Navbar() {
         <li>
           <a
             className="border-2 border-[rgb(100,149,237)] rounded-lg hover:shadow-[0px_7px_29px_0px_rgb(100,149,237)] shadow-[inset_0px_7px_29px_0px_rgb(100,149,237)] bg-slate-300 p-1 transition-all"
-            href="public/JustinElmourne-CV.pdf"
+            href="src/assets/JustinElmourne-CV.pdf"
             download
           >
             <i className="fa-regular fa-circle-down"></i> Resume
