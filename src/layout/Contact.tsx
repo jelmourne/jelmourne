@@ -16,7 +16,7 @@ function Contact() {
           <h1 className="text-5xl text-white m-3 font-bold">
             jelmourne@outlook.com
           </h1>
-          <img className="h-1/2 m-auto mt-10" src="src\assets\avatar.png"></img>
+          <img className="h-1/2 m-auto mt-10" src="/avatar.png"></img>
         </div>
         <form className="flex flex-col gap-4 order-2 w-screen ">
           <div className="flex flex-row gap-2 justify-center ">
