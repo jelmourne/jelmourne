@@ -19,7 +19,7 @@ function ProjectCard(props: {
       <div>
         <ul className="flex justify-center flex-row gap-4 flex-wrap">
           {props.tech.map((item) => {
-            return <ProjectButton name={item}></ProjectButton>;
+            return <ProjectButton key={item} name={item}></ProjectButton>;
           })}
         </ul>
       </div>

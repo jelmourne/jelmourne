@@ -15,7 +15,7 @@ function ExperienceCard(props: {
       </h1>
       <ul className="list-disc">
         {props.points.map((point) => (
-          <li>{point}</li>
+          <li key={point}>{point}</li>
         ))}
       </ul>
     </div>
