@@ -74,6 +74,7 @@ function Contact() {
           <button
             onClick={async () => {
               await sendMessage(first, last, email, message);
+              location.reload();
             }}
             className="text-start text-black w-fit bg-blue-400 hover:cursor-pointer p-2 px-10 rounded-md"
           >
