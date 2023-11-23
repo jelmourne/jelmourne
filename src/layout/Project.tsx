@@ -2,17 +2,21 @@ import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import axios, { AxiosResponse } from "axios";
 
+export async function getRepos() {
+  const response = await axios.get(
+    "https://api.github.com/users/jelmourne/starred"
+  );
+  return response;
+}
+
 function Project() {
   const [data, setData] = useState<any>();
 
   useEffect(() => {
-    async function getRepos() {
-      const response = await axios.get(
-        "https://api.github.com/users/jelmourne/starred"
-      );
-      setData(response);
+    async function callData() {
+      setData(await getRepos());
     }
-    getRepos();
+    callData();
   }, []);
   return (
     <div className="flex flex-col h-max" id="#project">
