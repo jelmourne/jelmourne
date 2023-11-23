@@ -31,7 +31,7 @@ function Experience() {
           <ul className="steps steps-vertical">
             <li data-content="2023" className="step step-neutral">
               <ExperienceCard
-                title="Freelace"
+                title="Freelance"
                 position="Full Stack Developer"
                 points={developer}
               ></ExperienceCard>
