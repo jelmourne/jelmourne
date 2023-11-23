@@ -12,7 +12,7 @@ function SmallCard(props: { title: string; logo: string; value: string }) {
           "--thickness": "12px",
         }}
       >
-        <img className="p-12" src={"/" + props.logo + ".svg"}></img>
+        <img className="p-12" src={"/portfolio/" + props.logo + ".svg"}></img>
       </div>
       <h1 className="p-3">{props.title}</h1>
     </div>

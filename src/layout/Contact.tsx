@@ -40,7 +40,7 @@ function Contact() {
           </h1>
           <img
             className="mt-10 rounded-full object-contain aspect-square w-1/2"
-            src="/avatar.png"
+            src="/portfolio/avatar.png"
           ></img>
         </div>
         <div className="flex flex-col gap-4 order-2 w-screen" id="form">
