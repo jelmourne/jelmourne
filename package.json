@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://jelmourne.github.io/portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,14 @@
     "dev": "vite",
     "build": "tsc; vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^1.6.2",
+    "gh-pages": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typewriter-effect": "^2.20.1"
@@ -28,6 +34,7 @@
     "prettier": "^3.0.2",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vitest": "^0.34.6"
   }
 }

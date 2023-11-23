@@ -1,7 +1,5 @@
 import "../index.css";
-import { useRef } from "react";
 import NavButton from "../components/NavButton";
-import Contact from "./Contact";
 
 function Navbar() {
   const handleScroll = (elem: any) => {
@@ -62,7 +60,7 @@ function Navbar() {
             href="/JustinElmourne-CV.pdf"
             download
           >
-            <i className="fa-regular fa-circle-down"></i> Resume
+            <i className="fa-regular fa-circle-down"></i>
           </a>
         </li>
       </ul>
