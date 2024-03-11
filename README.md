@@ -98,7 +98,7 @@
 
 <div align="left">
   <img src="https://streak-stats.demolab.com?user=jelmourne&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=0&date_format=j%20M%5B%20Y%5D&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=jelmourne&theme=tokyonight&column=4&row=1&margin-w=0&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=jelmourne&theme=tokyonight&column=5&row=1&margin-w=0&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jelmourne&radius=16&theme=tokyo-night&area=true&order=5&hide_title=true&hide_border=true" height="400" alt="activity-graph graph"  />
 </div>
 
